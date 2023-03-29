@@ -1,0 +1,37 @@
+body{
+    background-image: url("./images/signup.jpg");
+    /* background-color: red; */
+  }
+.register-page{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 20px;
+  transition: 0.3s;
+  background-color: white;
+  width: 30%;
+    height: 65%;
+    opacity: 1;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+}
+.register-page:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+
+.label{
+    margin-left:100px;
+}
+
+.btn{
+    justify-content: center;
+    margin-left:110px;
+    margin-bottom: 20px;
+} 
+.li{
+    margin-left:30px
+} 
