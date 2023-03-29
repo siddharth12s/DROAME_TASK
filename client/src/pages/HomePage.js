@@ -95,7 +95,7 @@ const HomePage = () => {
   //useEffect
   useEffect(() => {
     //getAll Customers
-    const getAllTransactions = async () => {
+    const getAllCustomers = async () => {
       try {
         const user = JSON.parse(localStorage.getItem("user"));
         setLoading(true);
@@ -108,10 +108,10 @@ const HomePage = () => {
         // console.log(res.data)
       } catch (error) {
         console.log(error);
-        message.error("Issue with fetching transaction");
+        message.error("Issue with fetching customers");
       }
     };
-    getAllTransactions();
+    getAllCustomers();
   }, [freq, selectedDate]);
 
   //delete handler
